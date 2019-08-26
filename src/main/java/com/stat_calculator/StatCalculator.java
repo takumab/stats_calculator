@@ -36,4 +36,7 @@ public class StatCalculator {
         return  Math.round(average * 100) / 100.0;
     }
 
+    public void getStats() {
+
+    }
 }
