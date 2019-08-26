@@ -11,7 +11,9 @@ public class StatsPrinterShould {
     void print_all_stats() {
         StatCalculator statsCalculator = mock(StatCalculator.class);
         StatsPrinter printer = new StatsPrinter(statsCalculator);
+
         printer.printStats();
+
         verify(statsCalculator).getStats();
     }
 }
